@@ -1,0 +1,9 @@
+geopandas>=0.14
+matplotlib>=3.8
+shapely>=2.0
+pyproj>=3.6
+pandas>=2.0
+pillow>=10.0
+requests>=2.31
+ipykernel>=6.0
+notebook>=7.0

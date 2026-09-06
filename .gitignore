@@ -1,0 +1,6 @@
+cache/
+osmnx/
+__pycache__/
+.ipynb_checkpoints/
+*.gpkg
+.DS_Store

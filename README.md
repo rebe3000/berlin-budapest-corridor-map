@@ -1,0 +1,35 @@
+# Berlin–Budapest corridor map (Flix case study)
+
+Python + Jupyter notebook that builds an OpenStreetMap overview of motorways, trunk/primary gap connectors, on-motorway service stations, and the planned **Mikulášov** comfort break.
+
+## Files
+
+| File | Role |
+|------|------|
+| `Berlin_Budapest_Corridor_Map.ipynb` | Jupyter entrypoint |
+| `plot_berlin_budapest_corridor.py` | Map generator (imported by the notebook) |
+| `requirements.txt` | Python dependencies |
+| `berlin_budapest_highways_services.png` / `.pdf` | Last exported map |
+
+## Run locally
+
+```bash
+python3 -m pip install -r requirements.txt
+jupyter notebook Berlin_Budapest_Corridor_Map.ipynb
+```
+
+Then run all cells. First Overpass download can take several minutes; results cache under `cache/`.
+
+## Can I run this on GitHub?
+
+**Not interactively on github.com itself.** GitHub only *displays* notebooks as a static preview.
+
+To **run** cells you can:
+
+1. **Clone locally** and use Jupyter (above), or  
+2. **GitHub Codespaces** → Open in Codespace → run the notebook there, or  
+3. Open the notebook in **Google Colab** / **Binder** (upload or “Open from GitHub”).
+
+## Data
+
+© OpenStreetMap contributors ([ODbL](https://www.openstreetmap.org/copyright)).
