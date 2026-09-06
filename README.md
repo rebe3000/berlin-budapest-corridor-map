@@ -1,4 +1,4 @@
-# Berlin–Budapest corridor map (Flix case study)
+# Berlin–Budapest corridor map
 
 Python + Jupyter notebook that builds an OpenStreetMap overview of motorways, trunk/primary gap connectors, on-motorway service stations, and the planned **Mikulášov** comfort break.
 
